@@ -114,6 +114,8 @@ input[type=submit]:hover {
 
 .product {
     /* position: relative; */
+    display: flex;
+    flex-direction: row;
     top: 150px;
     text-align: center;
     display: flex;
@@ -126,7 +128,7 @@ input[type=submit]:hover {
     height: auto;
     overflow: auto;
     display: inline-block;
-    width: 23%;
+    width: 25%;
     text-align: center;
 }
 
